@@ -1,0 +1,76 @@
+syntax = "proto3";
+
+message NullDouble {
+	double value = 1;
+	bool set = 2;
+}
+
+message NullFloat {
+	float value = 1;
+	bool set = 2;
+}
+
+message NullInt32 {
+	int32 value = 1;
+	bool set = 2;
+}
+
+message NullInt64 {
+	int64 value = 1;
+	bool set = 2;
+}
+
+message NullUint32 {
+	uint32 value = 1;
+	bool set = 2;
+}
+
+message NullUint64 {
+	uint64 value = 1;
+	bool set = 2;
+}
+
+message NullSint32 {
+	sint32 value = 1;
+	bool set = 2;
+}
+
+message NullSint64 {
+	sint64 value = 1;
+	bool set = 2;
+}
+
+message NullFixed32 {
+	fixed32 value = 1;
+	bool set = 2;
+}
+
+message NullFixed64 {
+	fixed64 value = 1;
+	bool set = 2;
+}
+
+message NullSfixed32 {
+	sfixed32 value = 1;
+	bool set = 2;
+}
+
+message NullSfixed64 {
+	sfixed64 value = 1;
+	bool set = 2;
+}
+
+message NullBool {
+	bool value = 1;
+	bool set = 2;
+}
+
+message NullString {
+	string value = 1;
+	bool set = 2;
+}
+
+message NullBytes {
+	bytes value = 1;
+	bool set = 2;
+}
